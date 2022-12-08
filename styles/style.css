@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+/* --------HEADER-------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.309375em 1.5em 1.440625em 1.25em;
+    align-items: center;
+    color: #090909;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+  
+}
+
+.icon {
+    width: 23.16px;
+    height: 23.16px;
+    margin-right: 0.1em;
+}
+
+header img {
+    display: block;
+    
+}
+
+h1 {
+    font-size: 0.847rem;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 108.2%;
+    letter-spacing: -0.03em;
+    
+}
+
+header ol {
+list-style: none;
+display: flex;
+font-size: .75rem;
+margin: 0;
+gap: 2.5em;
+text-transform: uppercase;
+font-weight: 600;
+
+}
+
+/* --------Main-------- */
+
+main img {
+  max-height: 414px;
+  max-width: 293px
+}
