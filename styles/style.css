@@ -138,12 +138,6 @@ header ol {
     line-height: 20px;
 }
 
-/* .four,
-.five,
-.six {
-    display: none;
-} */
-
 button {
     display: block;
     margin: auto;
@@ -160,7 +154,3 @@ button {
 button:hover {
     color: rgb(117, 115, 115);
 }
-
-/* .hidden {
-  display: none;
-} */
