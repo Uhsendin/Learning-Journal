@@ -52,7 +52,8 @@ header ol a {
   text-decoration: none;
   color: inherit;
 }
-/* --------MAIN-------- */
+
+/*---------MAIN---------*/
 
 main {
   width: 90%;
@@ -65,15 +66,23 @@ img {
   max-width: 100%;
 }
 
-.date {
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  line-height: 15px;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  color: #151515;
+.profile-container {
+  margin-top: 1.625em;
 }
 
+.profile-container p {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+font-size: 2.177rem;
+  color: #151515;
+  margin-bottom: 0.5em;
+}
+
+.profile-container img {
+  width: 11.375rem;
+  border-radius: 50%;
+}
 .hero-blog h2 {
   margin-top: 0.5em;
   font-weight: 700;
@@ -89,7 +98,6 @@ img {
   line-height: 20px;
   color: #151515;
   margin-bottom: 2.1875em;
-  
 }
 
 .hero-img {
@@ -106,7 +114,7 @@ img {
 .blog-details p {
   margin-top: 0;
   margin-bottom: 1.5em;
-  
+
   font-weight: 500;
   line-height: 20px;
 }
@@ -116,13 +124,13 @@ img {
 }
 
 .recent-title {
-text-align: center;
-font-size: 1rem;
-font-weight: 700;
-line-height: 20px;
-color: #000000;
-margin-top: 3.25em;
-margin-bottom: 1.6875em;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000000;
+  margin-top: 3.25em;
+  margin-bottom: 1.6875em;
 }
 
 .blog img {
@@ -155,6 +163,3 @@ margin-bottom: 1.6875em;
   color: #505050;
   margin-bottom: 2.5625em;
 }
-
-
-
